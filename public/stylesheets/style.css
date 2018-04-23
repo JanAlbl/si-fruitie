@@ -58,3 +58,28 @@ body {
 	text-align: center;
 	margin: 2px auto;
 }
+
+
+.dropzone{
+	margin-bottom: 10px !important;
+}
+
+#my-awesome-dropzone{
+	margin-top: 20px;
+}
+
+.mt-5, .my-5 {
+	margin-top: 2rem !important;
+}
+
+@media (max-width: 1400px) {
+
+	.dropzone{
+		padding: 0px 20px !important;
+		min-height: 100px !important;
+	}
+
+	.dropzone .dz-message{
+		margin: 1em 0 !important;
+	}
+}
