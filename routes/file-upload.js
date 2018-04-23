@@ -7,7 +7,7 @@ var fs = require('fs');
 
 var visualRecognition = new visualRecognitionV3({
     api_key: 'fb7504e782e66dcdecf702b282e8d4a503b7df1c',
-    version: '2018-04-05'
+    version: '2018-04-23'
 });
 
 var classifier_ids = ["fruits_1889404945"];
